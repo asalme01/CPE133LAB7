@@ -18,8 +18,8 @@ architecture Behavioral of exp14 is
 
     component sseg_dec is
         Port ( ALU_VAL : in std_logic_vector(7 downto 0); 
-			      SIGN : in std_logic;
-			     VALID : in std_logic;
+		  SIGN : in std_logic;
+		 VALID : in std_logic;
                    CLK : in std_logic;
                DISP_EN : out std_logic_vector(3 downto 0);
               SEGMENTS : out std_logic_vector(7 downto 0));
